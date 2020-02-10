@@ -2,7 +2,7 @@
 
 Manage and deploy multiple functions with webpack.
 
-Read more about it on dev.to.
+Read more about it on [dev.to](https://dev.to/elthrasher/managing-multiple-functions-with-aws-sam-and-webpack-1581).
 
 ## Useful commands
 

@@ -1,3 +1,6 @@
 build
 coverage
 node_modules
+
+# Wouldn't normally gitignore this but don't want to ship my file in an example project
+samconfig.toml
