@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hello handler should log to winston when called 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "time to say 'hello'",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`hello handler should say hello 1`] = `
+Object {
+  "body": "{\\"message\\":\\"hello\\"}",
+  "statusCode": 200,
+}
+`;

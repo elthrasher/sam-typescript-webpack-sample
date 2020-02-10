@@ -1,0 +1,44 @@
+{
+  "name": "sam-typescript-webpack",
+  "version": "0.0.1",
+  "description": "Sample app showing SAM, TypeScript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rimraf build",
+    "lint": "eslint --ext .ts .",
+    "test": "jest",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [
+    "SAM",
+    "TypeScript",
+    "Webpack",
+    "Lambda",
+    "Serverless"
+  ],
+  "author": "Matt Morgan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.40",
+    "@types/jest": "^25.1.2",
+    "@types/webpack": "^4.41.5",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}

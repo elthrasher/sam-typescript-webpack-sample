@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`goodbye handler it should say goodbye 1`] = `
+Object {
+  "body": "{\\"message\\":\\"goodbye\\"}",
+  "statusCode": 200,
+}
+`;
