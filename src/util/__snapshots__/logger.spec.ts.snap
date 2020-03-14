@@ -101,6 +101,7 @@ DerivedLogger {
       "silent": undefined,
       "stderrLevels": Object {},
       "writable": true,
+      Symbol(kCapture): false,
     },
     "pipesCount": 1,
     "readableListening": false,
@@ -178,5 +179,6 @@ DerivedLogger {
   },
   "silent": undefined,
   "writable": true,
+  Symbol(kCapture): false,
 }
 `;

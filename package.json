@@ -20,23 +20,23 @@
   "author": "Matt Morgan",
   "license": "ISC",
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.40",
-    "@types/jest": "^25.1.2",
-    "@types/webpack": "^4.41.5",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
+    "@types/aws-lambda": "^8.10.46",
+    "@types/jest": "^25.1.4",
+    "@types/webpack": "^4.41.7",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
-    "rimraf": "^3.0.1",
-    "ts-jest": "^25.2.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.2.1",
     "ts-loader": "^6.2.1",
     "ts-node": "^8.6.2",
-    "typescript": "^3.7.5",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "winston": "^3.2.1"
