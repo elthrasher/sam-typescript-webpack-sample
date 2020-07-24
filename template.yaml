@@ -8,7 +8,6 @@ Description: >
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
   Function:
-    CodeUri: build/
     Runtime: nodejs12.x
     Timeout: 300
 
@@ -16,6 +15,7 @@ Resources:
   HelloFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
+      CodeUri: build/hello
       Handler: hello.handler
       Events:
         Hello:
@@ -26,6 +26,7 @@ Resources:
   GoodbyeFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
+      CodeUri: build/goodbye
       Handler: goodbye.handler
       Events:
         Goodbye:
