@@ -86,6 +86,7 @@ DerivedLogger {
 ",
       "format": undefined,
       "handleExceptions": undefined,
+      "handleRejections": undefined,
       "level": undefined,
       "levels": Object {
         "debug": 5,
