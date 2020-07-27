@@ -40,6 +40,6 @@
     "yaml-cfn": "^0.2.3"
   },
   "dependencies": {
-    "winston": "^3.2.1"
+    "winston": "^3.3.3"
   }
 }
