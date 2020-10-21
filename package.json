@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.64",
     "@types/jest": "^26.0.14",
-    "@types/webpack": "^4.41.22",
+    "@types/webpack": "^4.41.23",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "eslint": "^7.11.0",
