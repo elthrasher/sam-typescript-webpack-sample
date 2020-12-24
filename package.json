@@ -20,7 +20,7 @@
   "author": "Matt Morgan",
   "license": "ISC",
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.67",
+    "@types/aws-lambda": "^8.10.68",
     "@types/jest": "^26.0.19",
     "@types/webpack": "^4.41.25",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
