@@ -23,7 +23,7 @@
     "@types/aws-lambda": "^8.10.72",
     "@types/jest": "^26.0.21",
     "@types/webpack": "^4.41.26",
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.18.0",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^7.2.0",
