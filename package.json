@@ -21,7 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.73",
-    "@types/jest": "^26.0.21",
+    "@types/jest": "^26.0.22",
     "@types/webpack": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
