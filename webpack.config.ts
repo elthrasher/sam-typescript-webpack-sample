@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import { join, resolve } from 'path';
 import { Configuration } from 'webpack';
+import * as nodeExternals from 'webpack-node-externals';
 import { yamlParse } from 'yaml-cfn';
 
 /** Interface for AWS SAM Function */
@@ -60,6 +61,7 @@ const entries = Object.values(Resources)
 
 const config: Configuration = {
   entry: entries,
+  externals: [nodeExternals()],
   output: {
     filename: '[name].js',
     libraryTarget: 'commonjs2',

@@ -1,0 +1,10 @@
+{
+  "name": "sam-typescript-webpack",
+  "version": "0.0.1",
+  "description": "Sample app showing SAM, TypeScript and Webpack",
+  "author": "Matt Morgan",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.3.3"
+  }
+}

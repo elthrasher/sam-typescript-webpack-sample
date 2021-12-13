@@ -17,6 +17,8 @@ Resources:
     Properties:
       CodeUri: build/hello
       Handler: hello.handler
+      Layers:
+        - !Ref NodeModulesLayer
       Events:
         Hello:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
@@ -34,6 +36,11 @@ Resources:
           Properties:
             Path: /goodbye
             Method: get
+  NodeModulesLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: node-modules
+      ContentUri: dependencies/
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
